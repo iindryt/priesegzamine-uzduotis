@@ -57,6 +57,9 @@ Tai didelės apimties informacinis tekstas apie pilkąjį vilką, apimantis:
 <img width="1472" height="166" alt="image" src="https://github.com/user-attachments/assets/575cbc18-6d27-46ce-ab21-a54ae91ab078" />
 
 
+Reikia nepamiršti paminėti, kad žmogus gali atsidaryti input/output failus ir pasižiūrėti gautus rezultatus, ar atsiuntęs kartu su .cpp ir.h, run.bat bei CMakeLists.txt ir į vieną Debug folderį įdėjęs ir tekstas.txt, paprašius "Iveskite failo pavadinima:" gaus analogiškus rezultatus. Tą patį galima padaryti ir su kitais tekstais, kurie yra .txt formato. 
+
+Be to, žodžių trumpiniai, tokie kaip "ideo" taip pat laikomi kaip vartojami žodžiai, nes yra trumpiniai, svarbu to nepamiršti.
 
 ## Įdiegimo instrukcija
 # CMake įdiegimas Windows naudojant `.msi` paketą
@@ -87,7 +90,7 @@ Kompiuteryje sukurti aplanką pavadintą "cmaketest". Į jį įkelti CMakeLists.
    ```powershell
    cmake --version
 
-# CMake projekto paleidimas Windows PowerShell
+# CMake projekto paleidimas Windows PowerShell ir naudojimo instrukcija
 ---
 
 ## 1. Atidarykite PowerShell
@@ -114,6 +117,10 @@ cd Debug
 
 7. **Terminale matysite programos meniu:**
 Iveskite failo pavadinima:
+
+Įvedus failo pavadinimą, matome, kad galime pasirinkti, ar URL rašomas į terminalą, ar į failus, o eilutės ir žodžių pasikartojimo skaičius išvedamas į du atskirus failus – eil.txt ir kiekis.txt
+<img width="1382" height="352" alt="image" src="https://github.com/user-attachments/assets/5200d981-9b4f-48f0-9b0c-a4d91ee2e9cf" />
+
 
 
 
