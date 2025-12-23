@@ -20,7 +20,19 @@ Buvo atliktos trys pagrindinės užduotys:
      - pilna forma (`http://...`)
      - sutrumpinta forma (`www.vu.lt`, `vu.lt`, `saitas.xyz`)
    - Rasti URL’ai tvarkingai išvesti ekrane arba į failą.
-   ## Naudotas tekstas
+  
+Programa sugeneruoja šiuos failus:
+
+-kiekis.txt
+Žodis ir jo pasikartojimų skaičius (tik > 1)
+
+-eil.txt
+Žodis ir eilučių numeriai, kuriose jis pasirodė
+
+-url_info.txt
+Rasti URL adresai 
+## Naudotas tekstas
+   
 
 Analizei buvo pasirinktas Vikipedijos straipsnis **„Pilkasis vilkas (Canis lupus)“**.  
 Tai didelės apimties informacinis tekstas apie pilkąjį vilką, apimantis:
