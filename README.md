@@ -55,6 +55,63 @@ Tai didelės apimties informacinis tekstas apie pilkąjį vilką, apimantis:
 <img width="261" height="43" alt="image" src="https://github.com/user-attachments/assets/09bad46f-ebdb-481f-9f1d-792da8339b03" />
 <img width="679" height="46" alt="image" src="https://github.com/user-attachments/assets/b8e887fe-7cdf-4edc-a746-90e9d58fcd77" />
 <img width="1472" height="166" alt="image" src="https://github.com/user-attachments/assets/575cbc18-6d27-46ce-ab21-a54ae91ab078" />
+## Įdiegimo instrukcija
+# CMake įdiegimas Windows naudojant `.msi` paketą
+
+Prieš pradedant 
+
+Atsisiųsti CMakeLists.txt, run.bat, .cpp ir .h failus iš GitHub.
+
+Kompiuteryje sukurti aplanką pavadintą "cmaketest". Į jį įkelti CMakeLists.txt, run.bat, cmake.exe failus.
+
+"cmaketest" aplanke sukurti du aplankus: "src", "include". Į "src" aplanką įkelti .cpp failus, o į "include" - .h failus.
+
+## 1. Atsisiuntimas
+1. Eikite į oficialų CMake puslapį: [https://cmake.org/download/](https://cmake.org/download/)
+2. Pasirinkite **Windows x64 Installer (.msi)** versiją.
+   - Pavyzdys: `cmake-3.25.0-windows-x86_64.msi`
+
+## 2. Diegimas
+1. Paleiskite atsisiųstą `.msi` failą.
+2. Spauskite **Next** visuose langeliuose.
+3. Svarbu: pasirinkite **"Add CMake to the system PATH for all users"** arba **"for current user"**.  
+   - Tai leis naudoti `cmake` komandą bet kuriame terminale.
+
+## 3. Baigimas
+1. Spauskite **Finish**, kai diegimas baigtas.
+2. Atidarykite naują **PowerShell** langą.
+3. Patikrinkite diegimą įvedę:
+   ```powershell
+   cmake --version
+
+# CMake projekto paleidimas Windows PowerShell
+---
+
+## 1. Atidarykite PowerShell
+
+- Atidarykite **Windows PowerShell**.
+2. **Eikite į savo projekto katalogą, pavyzdžiui:**
+- cd C:\Users\aiste\Desktop\cmaketest
+- 
+3. **Paleiskite CMake projektą:**
+
+cmake .\CMakeLists.txt
+
+4. **Sukurkite projektą:**
+
+cmake --build .
+
+5. **Pereikite į Debug katalogą:**
+
+cd Debug
+
+6. **Paleiskite programą:**
+
+.\failo_rusiavimo_programa.exe
+
+7. **Terminale matysite programos meniu:**
+Iveskite failo pavadinima:
+
 
 
 
