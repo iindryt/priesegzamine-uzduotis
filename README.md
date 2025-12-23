@@ -23,13 +23,13 @@ Buvo atliktos trys pagrindinės užduotys:
   
 Programa sugeneruoja šiuos failus:
 
--kiekis.txt
+- kiekis.txt
 Žodis ir jo pasikartojimų skaičius (tik > 1)
 
--eil.txt
+- eil.txt
 Žodis ir eilučių numeriai, kuriose jis pasirodė
 
--url_info.txt
+- url_info.txt
 Rasti URL adresai 
 ## Naudotas tekstas
    
