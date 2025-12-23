@@ -128,9 +128,14 @@ cd Debug
 .\failo_rusiavimo_programa.exe
 
 7. **Terminale matysite programos meniu:**
+Terminale bus paprašyta įvesti failo pavadinimą.
+Programa apdoroja tekstą ir sugeneruoja rezultatų failus.
+Jei randami URL adresai, vartotojas pasirenka:
+T – URL išvesti terminale
+F – URL išvesti į failą
 Iveskite failo pavadinima:
 
-Įvedus failo pavadinimą, matome, kad galime pasirinkti, ar URL rašomas į terminalą, ar į failus, o eilutės ir žodžių pasikartojimo skaičius išvedamas į du atskirus failus – eil.txt ir kiekis.txt
+Kadangi įvedus failo pavadinimą, matome, kad galime pasirinkti, ar URL rašomas į terminalą, ar į failus, o eilutės ir žodžių pasikartojimo skaičius išvedamas į du atskirus failus – eil.txt ir kiekis.txt
 <img width="1382" height="352" alt="image" src="https://github.com/user-attachments/assets/5200d981-9b4f-48f0-9b0c-a4d91ee2e9cf" />
 
 
