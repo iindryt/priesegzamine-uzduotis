@@ -59,7 +59,7 @@ Tai didelės apimties informacinis tekstas apie pilkąjį vilką, apimantis:
 
 Reikia nepamiršti paminėti, kad žmogus gali atsidaryti input/output failus ir pasižiūrėti gautus rezultatus, ar atsiuntęs kartu su .cpp ir.h, run.bat bei CMakeLists.txt ir į vieną Debug folderį įdėjęs ir tekstas.txt, paprašius "Iveskite failo pavadinima:" gaus analogiškus rezultatus. Tą patį galima padaryti ir su kitais tekstais, kurie yra .txt formato. 
 
-Be to, žodžių trumpiniai, tokie kaip "ideo" taip pat laikomi kaip vartojami žodžiai, nes yra trumpiniai, svarbu to nepamiršti.
+Be to, žodžių trumpiniai, tokie kaip "ide","d" taip pat laikomi kaip vartojami žodžiai, nes yra trumpiniai, svarbu to nepamiršti.
 
 ## Įdiegimo instrukcija
 # CMake įdiegimas Windows naudojant `.msi` paketą
