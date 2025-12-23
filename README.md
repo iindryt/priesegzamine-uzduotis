@@ -55,6 +55,9 @@ Tai didelės apimties informacinis tekstas apie pilkąjį vilką, apimantis:
 <img width="261" height="43" alt="image" src="https://github.com/user-attachments/assets/09bad46f-ebdb-481f-9f1d-792da8339b03" />
 <img width="679" height="46" alt="image" src="https://github.com/user-attachments/assets/b8e887fe-7cdf-4edc-a746-90e9d58fcd77" />
 <img width="1472" height="166" alt="image" src="https://github.com/user-attachments/assets/575cbc18-6d27-46ce-ab21-a54ae91ab078" />
+
+
+
 ## Įdiegimo instrukcija
 # CMake įdiegimas Windows naudojant `.msi` paketą
 
