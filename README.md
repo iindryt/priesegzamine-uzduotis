@@ -62,7 +62,7 @@ Prieš pradedant
 
 Atsisiųsti CMakeLists.txt, run.bat, .cpp ir .h failus iš GitHub.
 
-Kompiuteryje sukurti aplanką pavadintą "cmaketest". Į jį įkelti CMakeLists.txt, run.bat, cmake.exe failus.
+Kompiuteryje sukurti aplanką pavadintą "cmaketest". Į jį įkelti CMakeLists.txt, run.bat failus.
 
 "cmaketest" aplanke sukurti du aplankus: "src", "include". Į "src" aplanką įkelti .cpp failus, o į "include" - .h failus.
 
